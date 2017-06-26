@@ -1,0 +1,46 @@
+body{
+  margin: 0px;
+  background-color: black;
+}
+
+#app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#board{
+  transform: scale(1.2);
+}
+
+.relative{
+  top: 0px;
+  left: 0px;
+  position: relative;
+}
+
+.posicionable{
+  position: absolute;
+  left: -16px;
+  top: -16px;
+  width: 32px;
+  height: 32px;
+}
+
+.box{
+  background-image: url("../images/box_idle.png");
+}
+
+.floortile{
+  background-image: url("../images/marble.png");
+}
+
+.columnn{
+  background-image: url("../images/column.png");
+}
+
+.soldier-red{
+  background-image: url("../images/soldier-red.png");
+
+}

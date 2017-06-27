@@ -20,10 +20,18 @@ body{
   position: relative;
 }
 
+
+
 .posicionable{
   position: absolute;
   left: -16px;
   top: -16px;
+  width: 32px;
+  height: 32px;
+}
+
+.sprite{
+  position: absolute;
   width: 32px;
   height: 32px;
 }
@@ -40,10 +48,24 @@ body{
   background-image: url("../images/column.png");
 }
 
+.soldier{
+}
 .soldier.red{
   background-image: url("../images/soldier_red.png");
 }
 
 .soldier.blue{
   background-image: url("../images/soldier_blue.png");
+}
+.gun{
+  left: 9px;
+}
+
+.gun.gun-pistol{
+  background-image: url("../images/weapon-gun.png");
+}
+
+.gun-shot{
+  background-image: url("../images/gun-shot.png");
+
 }

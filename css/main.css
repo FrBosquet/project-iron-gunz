@@ -40,7 +40,10 @@ body{
   background-image: url("../images/column.png");
 }
 
-.soldier-red{
+.soldier.red{
   background-image: url("../images/soldier_red.png");
+}
 
+.soldier.blue{
+  background-image: url("../images/soldier_blue.png");
 }

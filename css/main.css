@@ -69,3 +69,8 @@ body{
   background-image: url("../images/gun-shot-1.gif");
 
 }
+
+.collision{
+  background-image: url("../images/gun-collide.gif");
+
+}

@@ -1,0 +1,15 @@
+
+.effect.collision{
+  background-image: url("../images/gun-collide.gif");
+
+}
+
+.effect.muzzle{
+  background-image: url("../images/muzle-1.gif");
+
+}
+
+.effect.blood{
+  background-image: url("../images/blood.gif");
+
+}

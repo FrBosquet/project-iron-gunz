@@ -69,13 +69,3 @@ body{
   background-image: url("../images/gun-shot-1.gif");
 
 }
-
-.effect.collision{
-  background-image: url("../images/gun-collide.gif");
-
-}
-
-.effect.muzzle{
-  background-image: url("../images/muzle-1.gif");
-
-}

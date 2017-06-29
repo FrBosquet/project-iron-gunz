@@ -1,0 +1,43 @@
+#uiViewContainer{
+  position: fixed;
+  bottom: 0px;
+  height: 120px;
+  width: 100vw;
+  display: flex;
+}
+
+#uiViewContainer .scoreboard{
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 15px;
+  flex-grow: 1;
+}
+
+#uiViewContainer .scoreboard:first-child{
+  flex-direction: row;
+
+}
+
+#uiViewContainer .scoreboard .playerName{
+  color: white;
+  content: "Crazy wild horse";
+  flex-grow: 1;
+}
+
+#uiViewContainer .scoreboard .playerAvatar{
+
+  width: 90px;
+  background-image: url("../images/face.png");
+  background-size: cover;
+}
+
+#uiViewContainer .scoreboard .playerAmmo{
+  flex-grow: 1;
+  border: 1px solid red;
+}
+
+#uiViewContainer .scoreboard .playerScore{
+  flex-grow: 1;
+  border: 1px solid green;
+
+}

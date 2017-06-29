@@ -19,9 +19,8 @@
 }
 
 #uiViewContainer .scoreboard .playerName{
-  color: white;
-  content: "Crazy wild horse";
   flex-grow: 1;
+  text-align: center;
 }
 
 #uiViewContainer .scoreboard .playerAvatar{
@@ -32,12 +31,13 @@
 }
 
 #uiViewContainer .scoreboard .playerAmmo{
-  flex-grow: 1;
+  flex-grow: 2;
   border: 1px solid red;
 }
 
 #uiViewContainer .scoreboard .playerScore{
-  flex-grow: 1;
-  border: 1px solid green;
-
+  width: 90px;
+  text-align: center;
+  font-size: 2.9em;
+  line-height: 0px;
 }

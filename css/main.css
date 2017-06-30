@@ -22,6 +22,13 @@ body{
   transform: scale(1.2);
 }
 
+.scanlines{
+  background-image: url("../images/scan-lines.gif");
+  background-size: 64px;
+  background-repeat: repeat;
+  display: none;
+}
+
 .relative{
   top: 0px;
   left: 0px;

@@ -69,11 +69,24 @@ body{
   left: 9px;
 }
 
-.gun.gun-pistol{
+.gun.pistol{
   background-image: url("../images/weapon-gun.png");
 }
+.gun.shotgun{
+  background-image: url("../images/weapon-shotgun.png");
+}
+.gun.rifle{
+  background-image: url("../images/weapon-rifle.png");
+}
+.gun.smg{
+  background-image: url("../images/weapon-smg.png");
+}
 
-.gun-shot{
+.bullet{
   background-image: url("../images/gun-shot-1.gif");
+}
+
+.pellet{
+  background-image: url("../images/gun-shot-2.gif");
 
 }

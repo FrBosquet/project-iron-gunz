@@ -85,16 +85,17 @@
   justify-content: center;
 }
 
+#screen-charselector h1{
+  text-align: center;
+}
+
 #screen-charselector .player-selector{
-  display: flex;
-  /*flex-grow: 1;*/
   display: flex;
   justify-content: center;
 }
 
 #screen-charselector .player-selector-card{
   padding: 16px;
-  flex-grow: 1;
   display: flex;
 }
 

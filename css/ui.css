@@ -46,9 +46,9 @@
 
 }
 
-#uiViewContainer .scoreboard .playerAmmo{
+#uiViewContainer .scoreboard .playerStatus{
+  text-align: center;
   flex-grow: 2;
-  border: 1px solid red;
 }
 
 #uiViewContainer .scoreboard .playerScore{

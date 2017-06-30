@@ -30,6 +30,22 @@
   background-size: cover;
 }
 
+#uiViewContainer .scoreboard .playerAvatar.anna{
+  background-image: url("../images/char_anna.png");
+}
+#uiViewContainer .scoreboard .playerAvatar.mike{
+  background-image: url("../images/char_mike.png");
+
+}
+#uiViewContainer .scoreboard .playerAvatar.money{
+  background-image: url("../images/char_money.png");
+
+}
+#uiViewContainer .scoreboard .playerAvatar.frank{
+  background-image: url("../images/char_frank.png");
+
+}
+
 #uiViewContainer .scoreboard .playerAmmo{
   flex-grow: 2;
   border: 1px solid red;

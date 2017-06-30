@@ -6,6 +6,7 @@
 #screen-white{
   opacity: 0;
   background-color: white;
+  pointer-events: none;
 }
 
 .animation-blackout{
@@ -35,6 +36,7 @@
 }
 
 #screen-menu{
+  background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -72,6 +74,74 @@
   text-align: center;
   font-size: 2em;
 }
+
+.button{
+  cursor: crosshair;
+}
+
+#screen-charselector{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#screen-charselector .player-selector{
+  display: flex;
+  /*flex-grow: 1;*/
+  display: flex;
+  justify-content: center;
+}
+
+#screen-charselector .player-selector-card{
+  padding: 16px;
+  flex-grow: 1;
+  display: flex;
+}
+
+#screen-charselector .player-selector-card .photo{
+  padding: 15px;
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+}
+
+#screen-charselector .player-selector-card.anna .photo{
+  background-image: url("../images/char_anna.png");
+}
+
+#screen-charselector .player-selector-card.money .photo{
+  background-image: url("../images/char_money.png");
+}
+
+#screen-charselector .player-selector-card.mike .photo{
+  background-image: url("../images/char_mike.png");
+}
+
+#screen-charselector .player-selector-card.fran .photo{
+  background-image: url("../images/char_frank.png");
+}
+
+.photo h3{
+  color: black;
+  line-height: 16px;
+  font-size: 1.5em;
+  text-shadow: 1px 1px 4px white;
+}
+
+#screen-charselector #char-selector-start-game{
+  height: 120px;
+}
+
+#char-selector-start-game{
+  display: flex;
+  justify-content: space-around;
+}
+
+#char-selector-start-game div{
+  flex-grow: 1;
+  text-align: center;
+}
+
 
 @keyframes black-fade {
   0% {

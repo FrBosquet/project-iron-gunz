@@ -6,6 +6,7 @@
   text-transform: uppercase;
   filter: blur(.3px);
   color: white;
+  user-select: none;
 }
 
 .pixel-font.animated{

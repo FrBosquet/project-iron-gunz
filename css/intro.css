@@ -1,0 +1,119 @@
+#screen-black {
+  background-color: black;
+  animation: 6s ease 2 normal black-fade;
+}
+
+#screen-white{
+  opacity: 0;
+  background-color: white;
+}
+
+.animation-blackout{
+  animation: 2s ease 1 normal blackout;
+}
+
+#screen-ironhack {
+  background-color: black;
+  background-image: url("../images/ironhack.png");
+  background-repeat: no-repeat;
+  background-size: 20vw;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+
+#screen-ironhack h1 {
+  position: relative;
+  top: 70vh;
+}
+
+#screen-me{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#screen-menu{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#screen-menu h1{
+  font-size: 6em;
+  display: inline-block;
+  background-color: black;
+
+}
+
+.intro-text{
+  margin: 0px;
+  font-size: 4em;
+  text-align: center;
+}
+
+.fanzy-rotation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  animation: 5s ease-in-out infinite alternate fanzyrotation;
+}
+
+.fanzy-rotation img{
+  margin-top: 70px;
+}
+
+#start-button{
+  margin-top: 256px;
+  padding: 15px;
+  text-align: center;
+  font-size: 2em;
+}
+
+@keyframes black-fade {
+  0% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blackout {
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+@keyframes fanzyrotation {
+  0%{
+    transform: rotateZ(0deg) scale(1);
+  }
+  20%{
+    transform: rotateZ(10deg) scale(1.2);
+  }
+  40%{
+    transform: rotateZ(0deg) scale(0.8);
+  }
+  60%{
+    transform: rotateZ(-10deg) scale(1);
+  }
+  80%{
+    transform: rotateZ(0deg) scale(1.2);
+  }
+  100%{
+    transform: rotateZ(10deg) scale(1);
+  }
+}

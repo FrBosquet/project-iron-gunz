@@ -19,6 +19,10 @@ Miami. The game art is influenced by 80s and 90s movies and videogames.
 - Player 1: Move with **AWSD**, shoot with q
 - Player 2: Move with **arrow keys**, shoot with -
 
+## Play
+
+https://frbosquet.github.io/project-iron-gunz/
+
 ## Stack
 - HTML5
 - CSS3
